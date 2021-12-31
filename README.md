@@ -29,7 +29,7 @@
 The samples are collected from from multiple internal databases in the data lake, and the time period is from 2019 Jan to 2020 Dec. 
 
 
-## 4. Methodology
+## 5. Methodology
 
 * Dependent variables: Current formula brand.
 
@@ -41,11 +41,11 @@ The samples are collected from from multiple internal databases in the data lake
 
 * Gridsearch to tune the hyperparameters.
 
-# 5. Raw Data
+# 6. Raw Data
 
-![image](https://user-images.githubusercontent.com/64850893/135674163-5a02499b-76e9-4add-b6ee-68105cad432e.png)
+![raw_data](https://user-images.githubusercontent.com/64850893/147840808-e3cf9b32-9c7b-467d-b92f-c51befe52e16.jpg)
 
-## Variable intepretation:
+## Variables intepretation:
 * Current brand: "1" represents our brand, and other values represent other brands.
 * First purchase brand: "1" represents our brand, and other values represent other brands.
 * Email OR (open rate): the nubmer of emails opened/the number of emails have been sent to a person.
