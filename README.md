@@ -1,25 +1,33 @@
-# Infant-Brand-Prediction
+# Infant Formula Brand Prediction
 Predicting consumers' current brand choice by Machine Learning algorithms
 
-# 1. Introduction
+## 1. Overview
 
-This project is based on a dataset from mulitple data sources, including CDP (customer data platform), D2C (direct to customer/Shopify), NITFS (national infant and toddler feeding survey). The dataset is from a infant brand in Canada, and it has been modified. 
+* Forecasted the probability of a caregiver uses MJN as their formula brand with 66% of accuracy.
+* Collected over 12k records from the CDP (customer data platform), D2C (Shopify), NITFS (national infant and toddler feeding survey).
+* Conducted data cleansing, EDA (exploratory data analysis) and upsampling
+* Implemented multiple ML classification models (Logistic Regression, KNN, Naive Bayes, SVC, Decision Tree, Random Forest, Ensemble) using Gridsearch to reach the optimal model.
+* Built a client facing Web App using flask, html, CSS, Azure.
+
+** Due to NDA (Non-Disclosure Agreement), the dataset has been modified.
+
 
 # 2. Objectives
 
-* Investigate the features that impact the current infant formula brand for a mom
-* Forecast the probability of a caregiver uses MJN as their formula.
+* Investigate the variables that impact a parent's choice for the current infant formula brand.
+* Forecast the probability of a caregiver uses MJN as their current product.
 
 
 # 3. Data Sources
 
-The samples are selected from from multiple internal databases (with common key), and the time period is from 2019 Jan to 2020 Dec. 
+The samples are collected from from multiple internal databases in the data lake, and the time period is from 2019 Jan to 2020 Dec. 
+
 
 # 4. Methodology
 
 * Dependent variables: current formula brand.
 
-* Independent variables: first purchase brand, email OR, CTR, coupon redemption rate, enrollment type, enrollment age, baby age, breastfeed type, hospital zone.​
+* Independent variables: Email OR, CTR, coupon redemption rate, enrollment type, enrollment age, baby age, breastfeed type, hospital zone.​
 
 * Machine Learning Models: Logistic regression, decision tree, Artificial Neural Network.​
 
