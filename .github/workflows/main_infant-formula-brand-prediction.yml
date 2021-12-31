@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'infant-formula-brand-prediction'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_53B0BDFFC4EF4448BA54556BD158DB70 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_662BE19433EF47B48E102BE6F551C6C2 }}
