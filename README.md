@@ -9,7 +9,7 @@
 * Built a client facing Web App using flask, html, CSS, Azure.
 * Due to NDA (Non-Disclosure Agreement), the dataset has been modified.
 
-## 2. Code and Package
+## 2. Code and Packages
 
 * Python Version: 3.9
 
@@ -76,6 +76,8 @@ The samples are collected from from multiple internal databases in the data lake
 ![indep_var](https://user-images.githubusercontent.com/64850893/147840878-a52f0463-d460-45a3-a1f9-49bc0dd11cd2.jpg)
 
 ## Correlation：
+
+![corr](https://user-images.githubusercontent.com/64850893/147840888-a99387db-85af-45ec-9160-2f0b889928a9.jpg)
 
 
 
