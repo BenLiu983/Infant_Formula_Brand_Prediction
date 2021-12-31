@@ -1,5 +1,4 @@
 # Infant Formula Brand Prediction
-Predicting consumers' current brand choice by Machine Learning algorithms
 
 ## 1. Overview
 
@@ -8,8 +7,7 @@ Predicting consumers' current brand choice by Machine Learning algorithms
 * Conducted data cleansing, EDA (exploratory data analysis) and upsampling
 * Implemented multiple ML classification models (Logistic Regression, KNN, Naive Bayes, SVC, Decision Tree, Random Forest, Ensemble) using Gridsearch to reach the optimal model.
 * Built a client facing Web App using flask, html, CSS, Azure.
-
-** Due to NDA (Non-Disclosure Agreement), the dataset has been modified.
+* Due to NDA (Non-Disclosure Agreement), the dataset has been modified.
 
 ## 2. Code and Package
 
