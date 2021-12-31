@@ -73,8 +73,9 @@ The samples are collected from from multiple internal databases in the data lake
 
 ## Independent variables:
 
-![image](https://user-images.githubusercontent.com/64850893/135923401-28312897-4d1b-4d9f-a87e-a16c4894236d.png)
+![indep_var](https://user-images.githubusercontent.com/64850893/147840878-a52f0463-d460-45a3-a1f9-49bc0dd11cd2.jpg)
 
 ## Correlation：
+
 
 
