@@ -61,8 +61,9 @@ The samples are collected from from multiple internal databases in the data lake
 
 * Remove the records with “null” value.
 * Manipulate certain columns. (e.g. set the ones with current brand as our brand equal to 1 , other brands as 0).
+* Create dummy variables.
 
-![image](https://user-images.githubusercontent.com/64850893/135674873-f071c940-9765-414c-8cca-a9165718165d.png)
+![clean_data](https://user-images.githubusercontent.com/64850893/147840830-134fc343-7ef1-4eaa-b1b9-8fdf3a8a3fa0.jpg)
 
 # 7. EDA (Exploratory Data Analysis)
 
