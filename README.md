@@ -85,7 +85,7 @@ The samples are collected from from multiple internal databases in the data lake
 
 ### Correlation：
 
-<img src=https://user-images.githubusercontent.com/64850893/147840888-a99387db-85af-45ec-9160-2f0b889928a9.jpg width="500" height="500">
+<img src=https://user-images.githubusercontent.com/64850893/147840888-a99387db-85af-45ec-9160-2f0b889928a9.jpg width="700" height="500">
 
 
 ## 8. Modeling
@@ -109,7 +109,7 @@ confusion
 
 ## 9. Feature Importance
 
-graph
+<img src=https://user-images.githubusercontent.com/64850893/147841123-150d57b1-107a-402c-8b1d-1c0fc4bc3192.jpg width="700" height="500">
 
 ## 10. Key Takeaways
 
