@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html">
+    <head>
+        <meta charset = "utf-8">
+        <title>Current Infant Brand Prediction</title>
+        <link rel="stylesheet" href = "static/app_assets/css/style.css">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "text">
+                Current Infant Brand Prediction
+            </div>
+
+            <form action = "" method = "post">
+                <div class = "form-row">
+                    <label for ="model">
+                        Choose Machine Learning Model
+                    </label>
+                    <div class = "input-data">
+                        <select name = "model" id ="model">
+                            <option value = "LogisticRegression">Logistic Regression</option>
+                            <option value = "KNN">KNN</option>
+                            <option value = "DecisionTreeClassifier">Decision Tree</option>
+                            <option value = "Random Forest">Random Forest</option>
+                            <option value = "Naive Bayes">Naive Bayes</option>
+                            <option value = "Support Vector Classifier">Support Vector Machine</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-data">
+                       <input type="text" name = "first_buy_brand" required>
+                       <div class="underline"></div>
+                       <label for="first_buy_brand">First Purchase Brand (1-Enfamil, 0-others)</label>
+                    </div>
+                    <div class="input-data">
+                       <input type="text" name = "babyage" required>
+                       <div class="underline"></div>
+                       <label for="babyage">Current Baby Age (days)</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-data">
+                       <input type="text" name = "ZONE" required>
+                       <div class="underline"></div>
+                       <label for="ZONE">Hospital Zone (1-Enfamil, 0-others)</label>
+                    </div>
+                    <div class="input-data">
+                       <input type="text" name = "breastfeed" required>
+                       <div class="underline"></div>
+                       <label for="breastfeed">Feeding Type (1-formula, 0-others)</label>
+                    </div>
+                </div>
+        
+                <div class="form-row">
+                    <div class="input-data">
+                       <input type="text" name = "enroll_type2" required>
+                       <div class="underline"></div>
+                       <label for="enroll_type2">Enrollment Type (1-Self Enrolled, 0-CoReg)</label>
+                    </div>
+                    <div class="input-data">
+                       <input type="text" name = "enroll_age" required>
+                       <div class="underline"></div>
+                       <label for="enroll_age">Baby Age at Enrollment (days)</label>
+                    </div>
+                </div>
+        
+                <div class="form-row">
+                    <div class="input-data">
+                       <input type="text" name = "open_rate0" required>
+                       <div class="underline"></div>
+                       <label for="open_rate0">Open Rate (From 0 to 1)</label>
+                    </div>
+                    <div class="input-data">
+                       <input type="text" name = "click_rate0" required>
+                       <div class="underline"></div>
+                       <label for="click_rate0">Click Through Rate (From 0 to 1)</label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-data">
+                       <input type="text" name = "redem_rate0" required>
+                       <div class="underline"></div>
+                       <label for="redem_rate0">Coupon Redemption Rate (From 0 to 1)</label>
+                    </div>
+                </div>
+
+                <div class = "form-row submit-btn">
+                    <div class = "input-data">
+                        <div class = "inner"></div>
+                        <input type = "submit" value = "Predict" id = "submit">
+                    </div>
+                    <bold>
+                        {% for item in data %}
+                            {{item.msg}}
+                        {% endfor %}
+                    </bold>
+                </div>
+            </form>
+
+        </div>
+    </body>
+</html>
