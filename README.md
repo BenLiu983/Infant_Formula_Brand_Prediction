@@ -45,6 +45,7 @@ The samples are collected from from multiple internal databases in the data lake
 
 * Gridsearch to tune the hyperparameters.
 
+
 ## 6. Data Cleaning
 
 ### Raw Data:
@@ -71,7 +72,8 @@ The samples are collected from from multiple internal databases in the data lake
 
 ![clean_data](https://user-images.githubusercontent.com/64850893/147840830-134fc343-7ef1-4eaa-b1b9-8fdf3a8a3fa0.jpg)
 
-## 6. EDA (Exploratory Data Analysis)
+
+## 7. EDA (Exploratory Data Analysis)
 
 ### Dependent ariables ("1" as our brand, "0" as other "brands"):
 
@@ -86,9 +88,31 @@ The samples are collected from from multiple internal databases in the data lake
 <img src=https://user-images.githubusercontent.com/64850893/147840888-a99387db-85af-45ec-9160-2f0b889928a9.jpg width="500" height="500">
 
 
-## 7. Modeling
+## 8. Modeling
 
-## 8. Model Performance
+* Minmax scaling
+* Train-test-split (cross validation)
+* Upsamling
+* Machine learning algorithms
+  * logistic Regression
+  * Naive Bayes
+  * KNN
+  * SVC
+  * Decision Tree
+  * Random Forest
+  * Ensemble
+* GridSearchCV
 
-## 9. Deployment to Azure
+Model Performance:
+Table
+confusion 
+
+## 9. Feature Importance
+
+graph
+
+## 10. Key Takeaways
+
+
+## 11. Deployment to Azure
 
