@@ -1,5 +1,9 @@
 # Infant Formula Brand Prediction
 
+
+
+## Web App Link: https://infant-brand-prediction.azurewebsites.net/
+
 ## 1. Overview
 
 * Forecasted the probability of a caregiver uses MJN as their formula brand with 66% of accuracy.
@@ -41,11 +45,13 @@ The samples are collected from from multiple internal databases in the data lake
 
 * Gridsearch to tune the hyperparameters.
 
-# 6. Raw Data
+## 6. Data Cleaning
+
+### Raw Data:
 
 ![raw_data](https://user-images.githubusercontent.com/64850893/147840808-e3cf9b32-9c7b-467d-b92f-c51befe52e16.jpg)
 
-## Variables intepretation:
+### Variables intepretation:
 * Current brand: "1" represents our brand, and other values represent other brands.
 * First purchase brand: "1" represents our brand, and other values represent other brands.
 * Email OR (open rate): the nubmer of emails opened/the number of emails have been sent to a person.
@@ -57,7 +63,7 @@ The samples are collected from from multiple internal databases in the data lake
 * Breastfeed type: "1" represents breastfed only, "2" represents both breastfed and formula feed, "3" represents formula feed only, "4" represents neither.
 * Hospital zone: "1" represents our hospital zone, and other values represent other brands.
 
-# 6. Data cleaning
+### Cleansing procedures
 
 * Remove the records with “null” value.
 * Manipulate certain columns. (e.g. set the ones with current brand as our brand equal to 1 , other brands as 0).
@@ -65,16 +71,22 @@ The samples are collected from from multiple internal databases in the data lake
 
 ![clean_data](https://user-images.githubusercontent.com/64850893/147840830-134fc343-7ef1-4eaa-b1b9-8fdf3a8a3fa0.jpg)
 
-# 7. EDA (Exploratory Data Analysis)
+## 6. EDA (Exploratory Data Analysis)
 
-## Dependent ariables ("1" as our brand, "0" as other "brands"):
+### Dependent ariables ("1" as our brand, "0" as other "brands"):
 
 <img src=https://user-images.githubusercontent.com/64850893/147840864-802346af-d44d-4e92-a456-d4b84aee028b.jpg width="500" height="300">
 
-## Independent variables:
+### Independent variables:
 
 ![indep_var](https://user-images.githubusercontent.com/64850893/147840878-a52f0463-d460-45a3-a1f9-49bc0dd11cd2.jpg)
 
-## Correlation：
+### Correlation：
 
 <img src=https://user-images.githubusercontent.com/64850893/147840888-a99387db-85af-45ec-9160-2f0b889928a9.jpg width="500" height="500">
+
+
+## 7. Modeling
+
+
+## 8. Deployment
