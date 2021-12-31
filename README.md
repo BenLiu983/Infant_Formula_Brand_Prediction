@@ -88,5 +88,7 @@ The samples are collected from from multiple internal databases in the data lake
 
 ## 7. Modeling
 
+## 8. Model Performance
 
-## 8. Deployment
+## 9. Deployment to Azure
+
