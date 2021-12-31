@@ -48,7 +48,7 @@ The samples are collected from from multiple internal databases in the data lake
 
 ## 6. Data Cleaning
 
-### Raw Data:
+### 6.1 Raw Data:
 
 ![raw_data](https://user-images.githubusercontent.com/64850893/147840808-e3cf9b32-9c7b-467d-b92f-c51befe52e16.jpg)
 
@@ -64,7 +64,7 @@ The samples are collected from from multiple internal databases in the data lake
 * Breastfeed type: "1" represents breastfed only, "2" represents both breastfed and formula feed, "3" represents formula feed only, "4" represents neither.
 * Hospital zone: "1" represents our hospital zone, and other values represent other brands.
 
-### Cleansing procedures
+### 6.3 Cleansing procedures
 
 * Remove the records with “null” value.
 * Manipulate certain columns. (e.g. set the ones with current brand as our brand equal to 1 , other brands as 0).
@@ -75,20 +75,22 @@ The samples are collected from from multiple internal databases in the data lake
 
 ## 7. EDA (Exploratory Data Analysis)
 
-### Dependent ariables ("1" as our brand, "0" as other "brands"):
+### 7.1 Dependent ariables ("1" as our brand, "0" as other "brands"):
 
 <img src=https://user-images.githubusercontent.com/64850893/147840864-802346af-d44d-4e92-a456-d4b84aee028b.jpg width="500" height="300">
 
-### Independent variables:
+### 7.2 Independent variables:
 
 ![indep_var](https://user-images.githubusercontent.com/64850893/147840878-a52f0463-d460-45a3-a1f9-49bc0dd11cd2.jpg)
 
-### Correlation：
+### 7.3 Correlation：
 
 <img src=https://user-images.githubusercontent.com/64850893/147840888-a99387db-85af-45ec-9160-2f0b889928a9.jpg width="700" height="500">
 
 
 ## 8. Modeling
+
+### 8.1 Process outline
 
 * Minmax scaling
 * Train-test-split (cross validation)
@@ -103,16 +105,21 @@ The samples are collected from from multiple internal databases in the data lake
   * Ensemble
 * GridSearchCV
 
-Model Performance:
-Table
-confusion 
 
-## 9. Feature Importance
+### 8.2 Model performance comparison:
+
+table
+
+### 8.3 Confusion Matrix (Random Forest): 
+
+<img src=https://user-images.githubusercontent.com/64850893/147841182-b1722ca6-1742-4ab6-8aef-4055104f82d1.jpg width="700" height="500">
+
+### 8.4 Feature Importance (Random Forest): 
 
 <img src=https://user-images.githubusercontent.com/64850893/147841123-150d57b1-107a-402c-8b1d-1c0fc4bc3192.jpg width="700" height="500">
 
-## 10. Key Takeaways
+## 9. Key Takeaways
 
 
-## 11. Deployment to Azure
+## 10. Deployment to Azure
 
