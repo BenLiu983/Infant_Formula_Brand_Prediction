@@ -69,7 +69,7 @@ The samples are collected from from multiple internal databases in the data lake
 
 ## Dependent ariables ("1" as our brand, "0" as other "brands"):
 
-![cur_brand](https://user-images.githubusercontent.com/64850893/147840864-802346af-d44d-4e92-a456-d4b84aee028b.jpg)
+<img src=https://user-images.githubusercontent.com/64850893/147840864-802346af-d44d-4e92-a456-d4b84aee028b.jpg width="500" height="300">
 
 ## Independent variables:
 
@@ -77,7 +77,4 @@ The samples are collected from from multiple internal databases in the data lake
 
 ## Correlation：
 
-![corr](https://user-images.githubusercontent.com/64850893/147840888-a99387db-85af-45ec-9160-2f0b889928a9.jpg)
-
-
-
+<img src=https://user-images.githubusercontent.com/64850893/147840888-a99387db-85af-45ec-9160-2f0b889928a9.jpg width="500" height="500">
