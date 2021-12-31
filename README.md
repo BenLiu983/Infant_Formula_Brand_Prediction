@@ -69,15 +69,12 @@ The samples are collected from from multiple internal databases in the data lake
 
 ## Dependent ariables ("1" as our brand, "0" as other "brands"):
 
-![image](https://user-images.githubusercontent.com/64850893/135921753-71200654-e635-411f-a587-339514dd20ee.png)
+![cur_brand](https://user-images.githubusercontent.com/64850893/147840864-802346af-d44d-4e92-a456-d4b84aee028b.jpg)
 
-Note: "1" as our brand, "0" as other "brands".
-
-## Independent variables :
+## Independent variables:
 
 ![image](https://user-images.githubusercontent.com/64850893/135923401-28312897-4d1b-4d9f-a87e-a16c4894236d.png)
 
-Note: 
-For "enrollment type" - "1" for self-enrolled, "0" for co-registered;
-For "breastfeed" type -  "1" for formula feed, "0" for breast feed;
-For "Zone" - "1" for our hospital zone, "0" for other brands' hospital zone.
+## Correlation：
+
+
