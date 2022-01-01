@@ -126,7 +126,8 @@ The samples are collected from from multiple internal databases in the data lake
 * Enrollment age is most significant variable in this model, so attracting consumers to enroll early is critical.
 * Email open rate and click through rate are also the important features, and we should make email content more appealing to drive the customers' engagement.
 
-## 10. Deployment to Azure
+## 10. Web Application Deployment
 
-* Apply Visual Studio Code 
-
+• Conducted front end development with Visual Studio Code, HTML and CSS.
+• Completed back end development using Python and Flask.
+• Deployed the web app on Microsoft Azure.
