@@ -6,11 +6,11 @@
 
 ## 1. Overview
 
-* Forecasted the probability of a caregiver uses MJN as their formula brand with 64% of accuracy.
+* Forecasted the probability of a caregiver using MJN as their current formula brand with 64% of accuracy.
 * Collected over 12k records from the CDP (customer data platform), D2C (Shopify), NITFS (national infant and toddler feeding survey).
-* Conducted data cleansing, EDA (exploratory data analysis) and upsampling
-* Implemented multiple ML classification models (Logistic Regression, KNN, Naive Bayes, SVC, Decision Tree, Random Forest, Ensemble) using Gridsearch to reach the optimal model.
-* Built a client facing Web App using flask, html, CSS, Azure.
+* Conducted data cleansing, EDA (exploratory data analysis) and upsampling.
+* Implemented multiple ML classification models (Logistic Regression, KNN, Naive Bayes, SVC, Decision Tree, Random Forest, Ensemble), using GridsearchCV to reach the optimal model.
+* Built a client facing Web App using flask, html, CSS, Visual Studio Code, Azure.
 > Due to NDA (Non-Disclosure Agreement), the dataset has been modified.
 
 ## 2. Code and Packages
@@ -19,14 +19,12 @@
 
 * Packages: pandas, numpy, sklearn, matplotlib, seaborn, flask, pickle
 
-* For Web Framework Requirements: pip install -r requirements.txt
-
+* For Web App deployment requirements: pip install -r requirements.txt
 
 ## 3. Objectives
 
 * Investigate the variables that impact a parent's choice for the current infant formula brand.
 * Forecast the probability of a caregiver uses MJN as their current product.
-
 
 ## 4. Data Sources
 
