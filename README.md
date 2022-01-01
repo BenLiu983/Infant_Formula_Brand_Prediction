@@ -6,7 +6,7 @@
 
 ## 1. Overview
 
-* Forecasted the probability of a caregiver uses MJN as their formula brand with 66% of accuracy.
+* Forecasted the probability of a caregiver uses MJN as their formula brand with 64% of accuracy.
 * Collected over 12k records from the CDP (customer data platform), D2C (Shopify), NITFS (national infant and toddler feeding survey).
 * Conducted data cleansing, EDA (exploratory data analysis) and upsampling
 * Implemented multiple ML classification models (Logistic Regression, KNN, Naive Bayes, SVC, Decision Tree, Random Forest, Ensemble) using Gridsearch to reach the optimal model.
@@ -106,9 +106,11 @@ The samples are collected from from multiple internal databases in the data lake
 * GridSearchCV
 
 
-### 8.2 Model performance comparison:
+### 8.2 Model performance:
 
-table
+<img src=https://user-images.githubusercontent.com/64850893/147856515-9e2bed77-06aa-42e2-a3d8-3ca61c7c8e68.jpg width="500" height="500">
+
+* Based on the accuracy comparison, the Random Forest will be selected as the optimal model in this case.
 
 ### 8.3 Confusion Matrix (Random Forest): 
 
@@ -120,6 +122,11 @@ table
 
 ## 9. Key Takeaways
 
+* Applying Random Forest will yield the highest accuracy rate (64%) in terms of predicting a parent's current formula brand. 
+* Enrollment age is most significant variable in this model, so attracting consumers to enroll early is critical.
+* Email open rate and click through rate are also the important features, and we should make email content more appealing to drive the customers' engagement.
 
 ## 10. Deployment to Azure
+
+* Apply Visual Studio Code 
 
