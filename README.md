@@ -108,17 +108,17 @@ The samples are collected from from multiple internal databases in the data lake
 
 ### 8.2 Model performance:
 
-<img src=https://user-images.githubusercontent.com/64850893/147856515-9e2bed77-06aa-42e2-a3d8-3ca61c7c8e68.jpg width="500" height="500">
+<img src=https://user-images.githubusercontent.com/64850893/147856515-9e2bed77-06aa-42e2-a3d8-3ca61c7c8e68.jpg width="600" height="400">
 
 * Based on the accuracy comparison, the Random Forest will be selected as the optimal model in this case.
 
 ### 8.3 Confusion Matrix (Random Forest): 
 
-<img src=https://user-images.githubusercontent.com/64850893/147841182-b1722ca6-1742-4ab6-8aef-4055104f82d1.jpg width="700" height="500">
+<img src=https://user-images.githubusercontent.com/64850893/147841182-b1722ca6-1742-4ab6-8aef-4055104f82d1.jpg width="600" height="400">
 
 ### 8.4 Feature Importance (Random Forest): 
 
-<img src=https://user-images.githubusercontent.com/64850893/147841123-150d57b1-107a-402c-8b1d-1c0fc4bc3192.jpg width="700" height="500">
+<img src=https://user-images.githubusercontent.com/64850893/147841123-150d57b1-107a-402c-8b1d-1c0fc4bc3192.jpg width="600" height="400">
 
 ## 9. Key Takeaways
 
@@ -128,6 +128,6 @@ The samples are collected from from multiple internal databases in the data lake
 
 ## 10. Web Application Deployment
 
-• Conducted front end development with Visual Studio Code, HTML and CSS.
-• Completed back end development using Python and Flask.
-• Deployed the web app on Microsoft Azure.
+* Conducted front end development with Visual Studio Code, HTML and CSS.
+* Completed back end development using Python and Flask.
+* Deployed the web app on Microsoft Azure.
