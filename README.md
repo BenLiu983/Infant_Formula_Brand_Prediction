@@ -23,17 +23,19 @@
 
 ## 3. Objectives
 
+* Forecast the probability of a caregiver using MJN as their current product.
+
 * Investigate the variables that impact a parent's choice for the current infant formula brand.
-* Forecast the probability of a caregiver uses MJN as their current product.
+
 
 ## 4. Data Sources
 
-The samples are collected from from multiple internal databases in the data lake, and the time period is from 2019 Jan to 2020 Dec. 
+The samples are collected from multiple internal databases in the data lake, and the time period is from 2019 Jan to 2020 Dec. 
 
 
 ## 5. Methodology
 
-* Dependent variables: Current formula brand.
+* Dependent variable: Current formula brand.
 
 * Independent variables: Email OR, CTR, coupon redemption rate, enrollment type, enrollment age, baby age, breastfeed type, hospital zone.​
 
@@ -41,7 +43,7 @@ The samples are collected from from multiple internal databases in the data lake
 
 * Upsampling due to the imbalanced dataset.
 
-* Gridsearch to tune the hyperparameters.
+* GridSearchCV to tune the hyperparameters.
 
 
 ## 6. Data Cleaning
@@ -53,29 +55,30 @@ The samples are collected from from multiple internal databases in the data lake
 ### Variables intepretation:
 * Current brand: "1" represents our brand, and other values represent other brands.
 * First purchase brand: "1" represents our brand, and other values represent other brands.
-* Email OR (open rate): the nubmer of emails opened/the number of emails have been sent to a person.
-* Email CTR (open rate): the nubmer of emails clicked/the number of emails have been sent to a person.
-* Coupon redemption rate: the nubmer of coupon redeemed/the number of couponss have been sent to a person.
+* Email OR (open rate): the number of emails opened/the number of emails sent to a person.
+* Email CTR (open rate): the number of emails clicked/the number of emails sent to a person.
+* Coupon redemption rate: the number of coupon redeemed/the number of coupons sent to a person.
 * Enrollment type: the source from which a person enrolled to our program (Self Enrollment, Co-registered).
 * Enrollment age: the age of the baby when the parent enrolled in our program.
-* Baby age: the age of the babay when the parent took the survey.
+* Baby age: the age of the baby when the parent participated the survey.
 * Breastfeed type: "1" represents breastfed only, "2" represents both breastfed and formula feed, "3" represents formula feed only, "4" represents neither.
 * Hospital zone: "1" represents our hospital zone, and other values represent other brands.
 
 ### 6.3 Cleansing procedures
 
-* Remove the records with “null” value.
-* Manipulate certain columns. (e.g. set the ones with current brand as our brand equal to 1 , other brands as 0).
-* Create dummy variables.
+* Removed the records with “null” value.
+* Manipulated certain columns. (e.g. set the ones with the current brand as our brand equal to 1, other brands as 0).
+* Created dummy variables.
 
 ![clean_data](https://user-images.githubusercontent.com/64850893/147840830-134fc343-7ef1-4eaa-b1b9-8fdf3a8a3fa0.jpg)
 
-
 ## 7. EDA (Exploratory Data Analysis)
 
-### 7.1 Dependent ariables ("1" as our brand, "0" as other "brands"):
+### 7.1 Dependent variables ("1" as our brand, "0" as other brands):
 
 <img src=https://user-images.githubusercontent.com/64850893/147840864-802346af-d44d-4e92-a456-d4b84aee028b.jpg width="500" height="300">
+
+* Will upsample in the next session due to the imbalanced dataset.
 
 ### 7.2 Independent variables:
 
@@ -85,24 +88,24 @@ The samples are collected from from multiple internal databases in the data lake
 
 <img src=https://user-images.githubusercontent.com/64850893/147840888-a99387db-85af-45ec-9160-2f0b889928a9.jpg width="700" height="500">
 
+* Will drop the "first_buy_brand" since it is highly correlated with the "cur_brand" (dependent variable).
 
 ## 8. Modeling
 
-### 8.1 Process outline
+### 8.1 Procedure
 
 * Minmax scaling
 * Train-test-split (cross validation)
 * Upsamling
 * Machine learning algorithms
-  * logistic Regression
+  * Logistic Regression
   * Naive Bayes
   * KNN
   * SVC
   * Decision Tree
   * Random Forest
-  * Ensemble
+  * Ensemble (Random Forest + Logistic Regression)
 * GridSearchCV
-
 
 ### 8.2 Model performance:
 
@@ -118,11 +121,13 @@ The samples are collected from from multiple internal databases in the data lake
 
 <img src=https://user-images.githubusercontent.com/64850893/147841123-150d57b1-107a-402c-8b1d-1c0fc4bc3192.jpg width="600" height="400">
 
+* Enrollment age, email OR, and CTR are the 3 most critical features in this case.
+
 ## 9. Key Takeaways
 
 * Applying Random Forest will yield the highest accuracy rate (64%) in terms of predicting a parent's current formula brand. 
-* Enrollment age is most significant variable in this model, so attracting consumers to enroll early is critical.
-* Email open rate and click through rate are also the important features, and we should make email content more appealing to drive the customers' engagement.
+* Enrollment age is the most significant variable in this model, so attracting consumers to enroll early is crucial.
+* Email open rate and click through rate are also important features, and we should make our email content more appealing to drive customer engagement.
 
 ## 10. Web Application Deployment
 
