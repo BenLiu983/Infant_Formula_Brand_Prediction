@@ -52,7 +52,7 @@ The samples are collected from multiple internal databases in the data lake, and
 
 ![raw_data](https://user-images.githubusercontent.com/64850893/147840808-e3cf9b32-9c7b-467d-b92f-c51befe52e16.jpg)
 
-### Variables intepretation:
+### 6.2 Variables intepretation:
 * Current brand: "1" represents our brand, and other values represent other brands.
 * First purchase brand: "1" represents our brand, and other values represent other brands.
 * Email OR (open rate): the number of emails opened/the number of emails sent to a person.
