@@ -6,7 +6,7 @@
 
 ## 1. Overview
 
-* Forecasted the probability of a caregiver using MJN as their current formula brand with 64% of accuracy.
+* Forecasted the probability of a caregiver using MJN as their current formula brand with 64% accuracy.
 * Collected over 12k records from the CDP (customer data platform), D2C (Shopify), NITFS (national infant and toddler feeding survey).
 * Conducted data cleansing, EDA (exploratory data analysis) and upsampling.
 * Implemented multiple ML classification models (Logistic Regression, KNN, Naive Bayes, SVC, Decision Tree, Random Forest, Ensemble), using GridsearchCV to reach the optimal model.
