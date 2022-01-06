@@ -97,7 +97,7 @@ The samples are collected from multiple internal databases in the data lake, and
 * Minmax scaling
 * Train-test-split
 * Cross validation
-* Upsamling
+* Upsampling
 * Machine learning algorithms
   * Logistic Regression
   * Naive Bayes
