@@ -95,7 +95,8 @@ The samples are collected from multiple internal databases in the data lake, and
 ### 8.1 Procedure
 
 * Minmax scaling
-* Train-test-split (cross validation)
+* Train-test-split
+* Cross validation
 * Upsamling
 * Machine learning algorithms
   * Logistic Regression
