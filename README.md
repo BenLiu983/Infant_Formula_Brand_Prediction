@@ -86,23 +86,19 @@ Current Brand vs Enrollment Type:
 
 <img width="500" height="300" alt="brand_enrolltype" src="https://user-images.githubusercontent.com/64850893/150658695-9319ac0b-b0bf-4acd-8769-d35e3e1f5d5e.png">
 
-Based on the enrollment type distribution plot, we can see that the proportion of "0" (co-registered) is lower in the customer group that uses our brand. This fact could indicate the enrollment type is possibly crucial in forecasting the parent's current brand choice.
-
+* Based on the enrollment type distribution plot, we can see that the proportion of "0" (co-registered) is lower in the customer group that uses our brand. This fact could indicate the enrollment type is possibly crucial in forecasting the parent's current brand choice.
 
 Current Brand vs Baby Age:
 
 <img width="600" height="300" alt="brand_babyage" src="https://user-images.githubusercontent.com/64850893/150658790-a211bf6f-0c53-4081-8ffd-33c92f8cedc3.png">
 
+* The above graph demonstrates a similar distribution in terms of baby age within two categories, which could mean that this feature is less critical in the predictive model.
 
-The above graph demonstrates a similar distribution in terms of baby age within two categories, which could mean that this feature is less critical in the predictive model.
+Current Brand vs Email Open Rate:
 
+<img width="500" height="300" alt="brand_or" src="https://user-images.githubusercontent.com/64850893/150658832-007fdd6f-f120-49b2-bb6c-0fb96e0b8b3a.png">
 
-Current Brand vs Email Open Rate
-
-
-
-Taking the average email open rate in 2 groups, we can observe a significant gap. This aligns with the business logic, since customers who are more engaged with our email campaign will be more likely to choose our brand.
-
+* Taking the average email open rate in two groups, we can observe a significant gap. This aligns with the business logic, since customers who are more engaged with our email campaign will be more likely to choose our brand.
 
 ### 7.3 Correlation：
 
