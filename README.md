@@ -82,15 +82,14 @@ The samples are collected from multiple internal databases in the data lake, and
 
 ### 7.2 Independent variables:
 
+Current Brand vs Enrollment Type:
 
-Current Brand vs Enrollment Type
-
-
+<img width="500" height="300" alt="brand_enrolltype" src="https://user-images.githubusercontent.com/64850893/150658695-9319ac0b-b0bf-4acd-8769-d35e3e1f5d5e.png">
 
 Based on the enrollment type distribution plot, we can see that the proportion of "0" (co-registered) is lower in the customer group that uses our brand. This fact could indicate the enrollment type is possibly crucial in forecasting the parent's current brand choice.
 
 
-Current Brand vs Baby Age
+Current Brand vs Baby Age:
 
 
 
