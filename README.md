@@ -82,7 +82,27 @@ The samples are collected from multiple internal databases in the data lake, and
 
 ### 7.2 Independent variables:
 
-![indep_var](https://user-images.githubusercontent.com/64850893/147840878-a52f0463-d460-45a3-a1f9-49bc0dd11cd2.jpg)
+
+Current Brand vs Enrollment Type
+
+
+
+Based on the enrollment type distribution plot, we can see that the proportion of "0" (co-registered) is lower in the customer group that uses our brand. This fact could indicate the enrollment type is possibly crucial in forecasting the parent's current brand choice.
+
+
+Current Brand vs Baby Age
+
+
+
+The above graph demonstrates a similar distribution in terms of baby age within two categories, which could mean that this feature is less critical in the predictive model.
+
+
+Current Brand vs Email Open Rate
+
+
+
+Taking the average email open rate in 2 groups, we can observe a significant gap. This aligns with the business logic, since customers who are more engaged with our email campaign will be more likely to choose our brand.
+
 
 ### 7.3 Correlation：
 
