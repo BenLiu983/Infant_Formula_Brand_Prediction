@@ -91,6 +91,7 @@ Based on the enrollment type distribution plot, we can see that the proportion o
 
 Current Brand vs Baby Age:
 
+<img width="600" height="300" alt="brand_babyage" src="https://user-images.githubusercontent.com/64850893/150658790-a211bf6f-0c53-4081-8ffd-33c92f8cedc3.png">
 
 
 The above graph demonstrates a similar distribution in terms of baby age within two categories, which could mean that this feature is less critical in the predictive model.
