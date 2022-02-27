@@ -2,8 +2,6 @@
 
 <img src=https://user-images.githubusercontent.com/64850893/147841407-113eab7f-e03c-413e-b5ff-c27f1a9127cb.jpg width="700" height="600">
 
-## Web App Link: https://infant-brand-prediction.azurewebsites.net/
-
 ## 1. Overview
 
 * Forecasted the probability of a caregiver using MJN as their current formula brand with 64% accuracy.
